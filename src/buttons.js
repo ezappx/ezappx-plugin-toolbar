@@ -1,6 +1,7 @@
 define(function () {
     return (editor = {}) => {
         let pnm = editor.Panels;
+
         pnm.addButton('options', {
             id: 'clean-canvas',
             className: 'fa fa-trash',
@@ -25,5 +26,17 @@ define(function () {
                 'data-tooltip-pos': 'bottom',
             },
         });
+
+        pnm.addButton('options', {
+            id: 'about',
+            className: 'fa fa-question-circle',
+            command: function() {
+                editor.runCommand('display-about');
+            },
+            attributes: {
+                'title': '关于',
+                'data-tooltip-pos': 'bottom',
+            },
+        })
     }
 })
