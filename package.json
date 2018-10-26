@@ -1,8 +1,8 @@
 {
-  "name": "ezapp-plugin-toolbar",
-  "version": "0.0.10",
+  "name": "ezappx-plugin-toolbar",
+  "version": "0.0.12",
   "description": "Ezappx plugin toolbar",
-  "main": "dist/ezapp-plugin-toolbar.min.js",
+  "main": "dist/ezappx-plugin-toolbar.min.js",
   "scripts": {
     "lint": "eslint src",
     "v:patch": "npm version --no-git-tag-version patch",

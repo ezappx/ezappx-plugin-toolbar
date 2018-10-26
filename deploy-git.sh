@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # build plugin
-echo "complie ezapp-plugin-toolbar..."
+echo "compile ezappx-plugin-toolbar..."
 npm run build
 
 # deploy to git server
