@@ -1,6 +1,6 @@
 {
   "name": "ezappx-plugin-toolbar",
-  "version": "0.0.12",
+  "version": "0.0.24",
   "description": "Ezappx plugin toolbar",
   "main": "dist/ezappx-plugin-toolbar.min.js",
   "scripts": {
@@ -11,15 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/artf/grapesjs-plugin-boilerplate.git"
+    "url": ""
   },
   "keywords": [
-    "grapesjs",
+    "ezappx",
     "plugin",
-    "boilerplate",
-    "wysiwyg"
+    "toobal"
   ],
-  "author": "Artur Arseniev",
+  "author": "ingbyr",
   "license": "BSD-3-Clause",
   "babel": {
     "presets": [

@@ -13,6 +13,18 @@ define(function () {
                 'data-tooltip-pos': 'bottom',
             },
         });
+
+        pnm.addButton('options', {
+            id: 'save-to-remote-storage',
+            className: 'fa fa-floppy-o',
+            command: function () {
+                editor.runCommand('save-to-remote-storage')
+            },
+            attributes: {
+                'title': '保存工程',
+                'data-tooltip-pos': 'bottom',
+            },
+        });
     
         pnm.addButton('options', {
             id: 'user-logout',
