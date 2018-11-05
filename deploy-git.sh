@@ -1,9 +1,3 @@
-#!/bin/sh
-
-# build plugin
-echo "compile ezappx-plugin-toolbar..."
-npm run build
-
 # deploy to git server
 echo "deploy to git server..."
 msg="update plugin at `date`"
